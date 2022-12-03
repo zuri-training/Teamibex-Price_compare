@@ -1,10 +1,10 @@
-# PRICE CONTENT
+# PRICEY
 
 An Interface that shows the price list of products and goods.
 
 Both authorized and non-authenticated users will be present in this project. Users who have signed up for our platform are considered authenticated users. They have access to several functions that are not available to users who are not authenticated.
 
-FEATURES
+# FEATURES
 
 The interface consists of the following on the unauthenticated page ;
 - see categories (mobile, laptop, PC & hardware etc) and the total number of each item in a category 
@@ -29,3 +29,12 @@ On authenticating and logging in, it takes you to another page which consists of
 - Feedback 
 - News
 - FAQs
+
+# LANGUAGES
+
+DESIGN :
+- Figma
+- Figjam
+
+PROJECT MANAGEMENT & VERSION CONTROL :
+- Github
