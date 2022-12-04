@@ -1,6 +1,6 @@
 # PRICEY
 
-An Interface that shows the price list of products and goods.
+An Interface that shows the price list of products and goods from different stores and brands.
 
 Both authorized and non-authenticated users will be present in this project. Users who have signed up for our platform are considered authenticated users. They have access to several functions that are not available to users who are not authenticated.
 
