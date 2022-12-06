@@ -38,3 +38,9 @@ DESIGN :
 
 PROJECT MANAGEMENT & VERSION CONTROL :
 - Github
+
+### TeamIbex
+
+| Names | Slack Username|
+| ------------- | ------------- |
+| Abel Adeleke | @Abelli |
