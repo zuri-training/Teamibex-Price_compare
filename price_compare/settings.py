@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'category',
+    'search',
     'accounts',
     'django_social_share',
     'django.contrib.admin',
