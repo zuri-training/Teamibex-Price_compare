@@ -36,6 +36,13 @@ DESIGN :
 - Figma
 - Figjam
 
+## Technology used
+
+- HTML
+- CSS
+- JAVASCRIPT
+- PYTHON (DJANGO)
+
 PROJECT MANAGEMENT & VERSION CONTROL :
 - Github
 
