@@ -1,5 +1,5 @@
 from django.shortcuts import render
-"""from products.models import Product
+from products.models import Product
 # Create your views here.
 
 
@@ -10,4 +10,3 @@ def search_venues(request):
         return render(request, 'search_venues.html', {'searched': searched, 'products': products})
     else:
         return render(request, 'search_venues.html', {'searched': searched, 'products': products})
-"""
