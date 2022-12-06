@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     'category',
     'search',
     'accounts',
-    # 'products.apps.ProductsConfig',
+    'products.apps.ProductsConfig',
     'django_social_share',
     'django.contrib.admin',
     'django.contrib.auth',
