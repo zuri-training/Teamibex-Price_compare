@@ -1,4 +1,4 @@
-from audioop import reverse
+#from audioop import reverse
 from distutils.command.upload import upload
 from django.db import models
 from django.contrib.auth import get_user_model
