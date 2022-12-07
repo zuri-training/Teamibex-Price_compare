@@ -17,4 +17,4 @@ So basically , I'm having different html file for each pages and different css f
 -This files(html and css files) in this case are my base files.
 -And to begin the project I'd have to define the structure of my project .
 there are different ways for this.
-But I'd showing 4 ways I'd structure(This is the project structure).
+But I'd showing 5 ways I'd structure(This is the project structure).
