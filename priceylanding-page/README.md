@@ -2,7 +2,7 @@
 
 # A 5 Page website Project
 
-In this Project we are to build a 5 webpage site landing page that compares prices of electronics,
+In this Project we are to build a 5 webpage site. A landing page that compares prices of electronics,
 which includes a login-page, sign-up page, product page, documentation page, landing page and Authenticated and Unauthenticated user views
 # A 5 Page website Project
 
