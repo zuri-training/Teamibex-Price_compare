@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'category',
+    'login',
     'search',
     'accounts',
     'products.apps.ProductsConfig',
