@@ -15,29 +15,7 @@
 </head>
 
 <body>
-    <header>
-        <div class="head">
-            <div class="top-header">
-                <a class="logo" href="">
-                    <img src="../static/logo.svg" alt="logo" />
-                </a>
-                <nav id="main-menu">
-                    <ul>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="{% url 'documentation'%}">Documentation</a></li>
-                        <li><a href="{% url 'contact'%}">Contact</a></li>
-                        <li><a href="{% url 'about'%}">About</a></li>
-                        {% if user.is_authenticated %}
-
-                        <li><a href="{% url 'logout'%}">Logout</a></li>
-                        {% else %}
-                        <li><a href="{% url 'login'%}">LogIn</a></li>
-                        <li><a href="{% url 'register'%}">Sign Up</a></li>
-                        {% endif %}
-                    </ul>
-                </nav>
-
-    </header>
+    <h1>Hi trib</h1>
 </body>
 
 </html>
