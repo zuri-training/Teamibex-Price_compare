@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="../styles/logsign.css">
+</head>
+<body>
+    <!-- Whole Page-->
+    <main class="main_flex_container">
+        <div class="logleftside-logo">
+            <img src="../images/login-Asset/Frame287.png" alt="Pricey Logo" class="priceylogo" style = "height:30vh;">
+        </div>
+    <!-- Side with Image and Logo-->
+        <div class="rightside-log">
+            <!--Form-->
+            <form action="">
+
+                <h1 class="log-h1">Welcome Back! </h1>
+                <p class="log-p">Please log in into your account</p>
+
+                <div class="welback">
+                
+                   <div class="mail">
+                     <label for="email"><b> E-mail </b> </label><br>
+                    <input type="email" name = "email" id = "email" placeholder="Enter a valid email address">
+
+                   </div>
+                   <div class="paswd">
+                     <label for="password" class="pwd"><b> Password </b> </label><br>
+                    <input type="password" id="password" placeholder="Enter Password" required>
+                   </div>
+                    <a href="../log-sign/recoverpass.html" style="text-align:right;" class="link-a">Forget password?</a>
+            </div>
+
+             <div  class="login-with">
+                <div>
+                     <button  class="btn" id="log-btn"><a href="login.html" >Log In</a>  </button>
+                </div>
+                <!--Requires Lines by the LHS and RHS of Or-->
+                <div id="orOpt">
+                  <img src="../images/login-Asset/Line 1.png" alt="" width="40%" height="1vh">  <p > Or  </p>
+                  <img src="../images/login-Asset/Line 1.png" alt="" width="40%" height="1vh">
+                </div>
+                <!--Remember to insert google logo in img tag-->
+                <div>
+                    <button class="btn-google">
+                        <img src="../images/login-Asset/google-g-logo-icon.png" alt="Google Logo" style="height:20px; width:20px;"> 
+                        <a href="#">Log in with Google account</a>
+                        </button>
+                </div>
+                <div>
+                    <button class="btn-facebook">
+                        <img src="../images/login-Asset/icons8-facebook-48 1.png" alt="Facebook Logo"style="height:20px; width:20px;"> 
+                        <a href="https//:facebook.com">Log in with Facebook account</a>
+                        </button>
+                </div>
+                <div>
+                    <p class="log-p">Already have an account?<a href="../log-sign/signup.html"> <span>Sign Up</span></a></p>
+                </div>
+            </div>
+            </form>
+           
+        </div>
+    </main>
+    <script src="logval.js">
+
+    </script>
+</body>
+</html>
