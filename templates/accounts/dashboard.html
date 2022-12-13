@@ -1,0 +1,14 @@
+{% if request.user.is_authenticated %}
+<ul class="menu">
+    <li>
+        <a href="{% url " login:dashboard" %}">My dashboard</a>
+        <a href="{% url " login:logout" %}">My Logout</a>
+    </li>
+
+</ul>
+
+
+<p>Welcome to pricey</p>
+
+
+{% endif %}
