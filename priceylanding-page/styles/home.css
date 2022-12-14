@@ -337,16 +337,20 @@ li {
     color: #03045E;
 }
 
-.star-rate {
+.star_rate {
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
     margin-bottom: 10px;
+    user-select: none;
 }
 
 .star {
     width: 5%;
     border: none;
+    color: #ff9800;
+    background-color: unset;
+    cursor: pointer;
 }
 
 .amount {
