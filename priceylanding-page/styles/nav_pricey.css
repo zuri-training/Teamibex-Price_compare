@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+a,
+ul,
+li {
+    text-decoration: none;
+}
+
+.prc-header {
+    width: 100%;
+}
+
+.prc-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.prc-logo img {
+    width: 10rem;
+    padding: 2rem 0 0 2rem;
+    margin: 0;
+
+}
+
+.prc-nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.prc-nav li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #5F5F5F;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.prc-nav li a:hover {
+    color: #03045EFC;
+}
+
+.prc-nav li a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #03045EFC;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: all .4s ease;
+}
+
+.prc-nav li a:hover::after {
+    width: 100%;
+}
+
+button {
+    width: 91px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/*=============MEDIA QUERIES=============*/
+@media (max-width:560px) {
+    .prc-nav {
+        position: fixed;
+        inset: 0;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 15vh;
+
+    }
+
+    .nav-toggle {
+        font-size: 2rem;
+
+    }
+}
+
+/*about t&c contact
+main{
+    padding: 2em;
+    margin: 0% 20%;
+
+}
+
+h1, h2{
+    padding: 5px;
+    color: rgb(49, 86, 220);
+    letter-spacing: 1px;
+    line-height: 20px;
+
+}
+h3, h4{
+    padding: 5px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: rgb(49, 86, 220);
+}
+.tcdiv p{
+    letter-spacing: 1px;
+    padding: 5px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 20px;
+}
+#subject {
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+    border-width: 2px;
+}
+#con_name {
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+    border-width: 2px;
+}
+#email {
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+    border-width: 2px;
+}
+#pnum {
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+    border-width: 2px;
+}
+#con_message{
+    width: 80%;
+    height: 300px;
+    border-radius: 3px;
+    border-width: 2px;
+}
+
+#con_btn{
+    background-color:rgb(49, 86, 220) ;
+    color: white;
+}
+.table_div label{
+    letter-spacing: 1px;
+    padding: 5px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 20px;
+}
+`/*documentation*/
+main{
+    padding: 2em;
+    margin: 0% 20%;
+}
+main #doc_main{
+    
+}
+
+#doc_main h1, h2, h3, h4{
+    padding: 5px;
+    margin: 0% 10%;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: rgb(49, 86, 220);
+    
+
+}
+#doc_main p{
+    padding: 5px;
+    margin: 0% 10%;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-size: 16px;
+    
+
+}
+#doc_main li{
+    padding: 2em;
+    margin: 0% 20%;
+    text-align: justify;
+    letter-spacing: 1px;
+    padding: 5px;
+    line-height: 20px;
+
+}
+.main_doc{
+    display: flex;
+    width: 100%;
+
+
+}
+.doc_content p{
+    letter-spacing: 1px;
+    padding: 5px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 20px;
+}
+.side_bar{
+    border-width: 3px;
+    position: fixed;
+    width: 30%;
+    
+    
+}
+.side_bar li{
+    list-style: none;
+    width: 70% ;
+}
+.side_bar a{
+    color: rgb(84, 76, 76);
+    text-shadow: ;
+}
+.doc_content{
+    margin-left:200px;
+    width: 100%;
+    padding: 0px;
+    text-align: justify;
+}
+.doc_content div{
+    padding: 0px;
+    margin: 0px;
+}
+
+table{
+    width: 100%;
+}
+
+#color_sys{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 150px;
+}
+#color_sys div{
+    width: 50px;
+}
+table{
+    margin: 10px 100px;
+    align-items: center;
+}
+color_sys{
+    align-items: center;
+
+}
+
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 10rem auto;
+  }
+  
+  
+  .div1 {
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    background: #1e1e1e;
+    color: #fff;
+    
+  }
+  
+  .div1 ul li {
+    list-style: none;
+    padding: .5rem;
+    font-size: 15px;
+  }
+  
+  .div1 ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: .5rem;
+  }
+  
+  
+  .div1 h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 1rem;
+    color: white;
+    text-align:left;
+  }
+  
+  .news .btn-email {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 23px;
+    margin-right: 1rem;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 0px;
+    color: rgba(255, 255, 255, 0.6);
+    border: .3px solid gainsboro;
+  
+  
+  }
+  
+  .fa-envelope-o {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    background: transparent;
+  
+  }
+  
+  .news .btn-sub {
+    background: #FCD445;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all .3s ease-out;
+    border: none;
+  }
+  
+  .news .btn-sub:hover {
+    background: #a18b39;
+    color: #fff;
+  
+  }
+  
+  .news ul {
+    margin-bottom: 1rem;
+  }
+  
+  
+  
+  
+  
+  
+  .div2 {
+    padding: 10px;
+    background: #1e1e1e;
+    width: 100%;
+  }
+  
+  .line {
+    padding: 10px;
+    border-top: 1px solid black;
+    background: #1e1e1e;
+  
+  }
+  
+  .line-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 180%;
+    color: #fff;
+  
+  }
+  
+  .div3 {
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+  }
+  
+  .container {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+  }
+  
+  .social img {
+    padding-right: 1rem;
+    cursor: pointer;
+  }
+
