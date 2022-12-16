@@ -52,3 +52,10 @@ PROJECT MANAGEMENT & VERSION CONTROL :
 | ------------- | ------------- |
 | Abel Adeleke | @Abelli |
 | Samuel Ogbaje| @CodzSchach
+
+
+
+
+
+# Hosting Link
+https://codeklin.github.io/pricey_frontend/
