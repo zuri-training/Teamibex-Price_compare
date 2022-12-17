@@ -51,6 +51,7 @@ PROJECT MANAGEMENT & VERSION CONTROL :
 | Names | Slack Username|
 | ------------- | ------------- |
 | Abel Adeleke | @Abelli |
+| Olajide Igbalaye | @Clickcom007
 | Samuel Ogbaje| @CodzSchach
 
 
