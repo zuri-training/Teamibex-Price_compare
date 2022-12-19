@@ -54,6 +54,12 @@ PROJECT MANAGEMENT & VERSION CONTROL :
 | Olajide Igbalaye | @Clickcom007
 | Samuel Ogbaje| @CodzSchach
 
+Active Members
+1. i4g0007582o7 Abel Adeleke
+2. i4g000776ge2 Victoria Akinola
+3. i4g000235r4l Fathiah Akinsanya
+4. i4g000749opu Victor Akintoye
+5. i4g000750obc Jennifer Ayogu
 
 
 
