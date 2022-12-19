@@ -58,5 +58,22 @@ PROJECT MANAGEMENT & VERSION CONTROL :
 
 
 
-# Hosting Link
+# Links
+
+Final Documentation
+https://docs.google.com/document/d/124TqPmOOTW-EhIZQxA5O_nwixTwSlzbo9M7FIkgnI9Q/
+edit
+GitHub Link
+https://github.com/zuri-training/Teamibex-Price_compare
+Final product (Hosted Link)
 https://codeklin.github.io/pricey_frontend/
+Final product (Design Link)
+https://www.figma.com/file/wdmVQKmTCS5odbzwKfGJtU/Team-Ibex-Final-Design?node-id=0%
+3A1&t=3ZItXn0J6XL295aX-1
+Final Product (Prototype)
+https://www.figma.com/proto/wdmVQKmTCS5odbzwKfGJtU/Team-Ibex-Final-Design?page-id=0
+%3A1&node-id=19%3A999&viewport=676%2C230%2C0.02&scaling=scale-down&starting-poin
+t-node-id=19%3A999&show-proto-sidebar=1
+
+
+
