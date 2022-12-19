@@ -46,20 +46,51 @@ DESIGN :
 PROJECT MANAGEMENT & VERSION CONTROL :
 - Github
 
-### TeamIbex
+### TeamIbex Members
 
-| Names | Slack Username|
+|SN|Student ID| Names | Slack Username|
+
 | ------------- | ------------- |
-| Abel Adeleke | @Abelli |
-| Olajide Igbalaye | @Clickcom007
-| Samuel Ogbaje| @CodzSchach
 
-Active Members
-1. i4g0007582o7 Abel Adeleke
-2. i4g000776ge2 Victoria Akinola
-3. i4g000235r4l Fathiah Akinsanya
-4. i4g000749opu Victor Akintoye
-5. i4g000750obc Jennifer Ayogu
+
+
+
+|1| i4g0007582o7 | Abel Adeleke| @Abelli
+
+|2| i4g000776ge2 | Victoria Akinola| 
+
+|3| i4g000235r4l | Fathiah Akinsanya | @Fathiah23
+
+|4| i4g000749opu | Victor Akintoye |
+
+|5| i4g000750obc | Jennifer Ayogu |
+
+|6| i4g001002paw | Ogheneovo Abroziekeya |
+
+|7| i4g000373yl4 | Olajide Igbalaye | @Clickcom007
+
+|8| i4g000847cve | Nasa Anaele |
+
+|9|  i4g0001910u2 | Gift Paul |
+
+|10| i4g000457cuj | Mayowa Aratunde |
+
+|11| i4g000405rpv | DIKE CHIGOZIE |
+
+|12| i4g000862w4f | JOYCE OGUH |
+
+|13| i4g001244dnr | Chimdinma Mbadugha |
+
+|14| i4g000769ne1 | Quwamudeen Bello |
+
+|15| i4g000550oqk | Samuel Ogbaje | @CodzSchach
+
+|16| i4g001124hu9 | Joseph Ajogwu |
+
+|17| i4g001496xr0 | jeremiah balogun |
+
+|18| i4g000659auk | Evaristus Onuh |
+
 
 
 
