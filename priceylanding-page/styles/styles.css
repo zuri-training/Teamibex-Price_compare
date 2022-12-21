@@ -75,10 +75,10 @@ button {
     width: 91px;
     height: 40px;
     border-radius: 10px;
-    border: 1px solid lightgray;
+    border: 1px solid #03045E;
     padding: 10px;
     cursor: pointer;
-    color: #00B4D8;
+    color: #03045E;
 }
 
 .login:hover {
@@ -358,8 +358,6 @@ button {
     align-items: center;
     margin: 0 auto;
     background: #FFFFFF;
-    
-    /* padding: 1rem; */
 }
 .go-to-shop button {
     width: 90%;
@@ -525,7 +523,7 @@ button {
 /* =======================media query============================= */
 
 
-@media (max-width:560px) {
+/* @media (max-width:560px) {
     .prc-nav {
         position: fixed;
         inset: 0;
@@ -540,7 +538,7 @@ button {
 
     }
 }
-
+ */
 
 
 

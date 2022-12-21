@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+a,
+ul,
+li {
+    text-decoration: none;
+}
+
+.prc-header {
+    width: 100%;
+}
+
+.prc-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.prc-logo img {
+    width: 10rem;
+    padding: 2rem 0 0 2rem;
+    margin: 0;
+
+}
+
+.prc-nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.prc-nav li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #5F5F5F;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.prc-nav li a:hover {
+    color: #03045EFC;
+}
+
+.prc-nav li a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #03045EFC;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: all .4s ease;
+}
+
+.prc-nav li a:hover::after {
+    width: 100%;
+}
+
+button {
+    width: 91px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #03045E;
+    padding: 10px;
+    cursor: pointer;
+    color: #03045E;
+}
+
+.login:hover {
+    background: #03045E;
+    box-shadow: 0px 12px 20px rgba(3, 4, 94, 0.25);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.signup:hover {
+    background: #03045E;
+    box-shadow: 0px 12px 20px rgba(3, 4, 94, 0.25);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.auth-user {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+
+
+/* =================Product top deals======================= */
+
+.container-topdeal-product {
+    width: 95%;
+    margin: 0 auto;
+    padding: .5rem;
+}
+
+.products {
+    width: 95%;
+    margin: 10px auto;
+}
+
+.products h3 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+    color: #1e1e1e;
+}
+
+.container-item-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* gap: px; */
+    align-items: center;
+
+}
+
+.product-item-top {
+    width: 95%;
+    padding: 1rem;
+    /* height:4vh ; */
+    background: #C5C5C5;
+    border-radius: 10px;
+    text-align: center;
+}
+.btn-products{
+     /* width: 35%; */
+     /* height:vh;
+    padding: 1rem;
+    height:4vh ;
+    background: #C5C5C5;
+    border-radius: 10px;
+    text-align: center; */
+}
+
+.p-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 38px;
+    margin-bottom: 5px;
+    color: #1e1e1e;
+}
+
+.product-item-top img {
+    height: 25vh;
+    width: 100%;
+}
+
+
