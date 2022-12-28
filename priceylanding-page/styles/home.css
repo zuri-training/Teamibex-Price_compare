@@ -245,14 +245,35 @@ li {
     height: 40vh;
     width: 100%;
 }
+/* ========================Review section============================ */
+.container-reviews{
+    width: 95%;
+    display: block;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+}
 
-
-
-
-
+.review-headings{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid red;
+}
+.image-bg{
+    width: 50%;
+    text-align: center;
+    border: 1 px solid yellow;
+}
+.image-bg img{
+    height: 200vh;
+}
 
 
 /* ===========================contact us form Authenticated user====================================== */
+
 .container-contact-us-auth-user {
     display: flex;
     flex-direction: column;

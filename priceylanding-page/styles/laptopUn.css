@@ -482,7 +482,7 @@ button {
     margin-top: 1rem;
     cursor: pointer;
 }
-* ===========================contact us form Authenticated user====================================== */
+/* ===========================contact us form Authenticated user====================================== */ */
 .container-contact-us-auth-user {
     display: flex;
     flex-direction: column;
@@ -493,6 +493,7 @@ button {
     padding: 1.5rem;
     margin: 0 auto;
     background: #03045E;
+    border: 1px solid red;
 }
 
 .container-contact-us {
@@ -510,7 +511,7 @@ button {
 }
 
 .left-form-pic img {
-    height: 80vh;
+    height: 60vh;
     width: 100%;
 }
 
